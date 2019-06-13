@@ -24,12 +24,12 @@
             >
 
             <EditText
-                android:id="@+id/input1"
+                android:id="@+id/input"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_margin="60dp"
-                android:background="#140f15"
-                android:textColor="#f9f9fc"
+                android:background="@color/colorBlack"
+
 
                 />
 
@@ -38,8 +38,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="50dp"
 
 
 
@@ -66,14 +66,21 @@
                 android:layout_weight="1"
                 android:text="3" />
 
+            <Button
+                android:id="@+id/btn_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="+" />
+
         </LinearLayout>
 
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="50dp"
 
 
 
@@ -100,13 +107,20 @@
                 android:layout_weight="1"
                 android:text="6" />
 
+            <Button
+                android:id="@+id/btn_sub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="-" />
+
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="50dp"
 
 
 
@@ -133,13 +147,20 @@
                 android:layout_weight="1"
                 android:text="9" />
 
+            <Button
+                android:id="@+id/btn_r"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="=" />
+
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="50dp"
 
 
 
